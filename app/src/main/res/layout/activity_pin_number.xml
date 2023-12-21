@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.PinNumberActivity"
+   >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary_color"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/appIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-50dp"
+                android:src="@drawable/app_icon"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/logoutImage"-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:src="@drawable/baseline_logout_24_white"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp"
+        android:text="CREATE PIN NUMBER"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+      >
+
+        <EditText
+            android:id="@+id/pinBox1"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"
+            />
+        <EditText
+            android:id="@+id/pinBox2"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"/>
+        <EditText
+            android:id="@+id/pinBox3"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"/>
+        <EditText
+            android:id="@+id/pinBox4"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFORM PIN"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/conformPinBox1"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"/>
+        <EditText
+            android:id="@+id/conformPinBox2"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:id="@+id/conformPinBox3"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"/>
+        <EditText
+            android:id="@+id/conformPinBox4"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:maxLength="1"
+            android:background="@drawable/input_card_design"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pinSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

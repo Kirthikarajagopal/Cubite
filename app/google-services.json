@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "52735314939",
+    "project_id": "snacks-management-f2c87",
+    "storage_bucket": "snacks-management-f2c87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52735314939:android:7b88315b0ce61edff0595e",
+        "android_client_info": {
+          "package_name": "com.kcube.cubite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52735314939-tfeikrhcj834nf44bpum745sdccdsgj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkYqVP_k67YQ_avVDpVTk5TYXkYMucIJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52735314939-tfeikrhcj834nf44bpum745sdccdsgj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52735314939:android:a24e322b8208a6cbf0595e",
+        "android_client_info": {
+          "package_name": "com.kcube.snack_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52735314939-tfeikrhcj834nf44bpum745sdccdsgj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkYqVP_k67YQ_avVDpVTk5TYXkYMucIJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52735314939-tfeikrhcj834nf44bpum745sdccdsgj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
